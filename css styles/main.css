@@ -1,0 +1,334 @@
+
+.dropbutton{
+    background-color: #ffffff;
+    border: none;
+    color: #f1712a;
+    font-size: 1.2vw;
+    position: absolute;
+    right: -6vw;
+    top: -1.4vw;
+    }
+    .dropdown {
+        position: relative;
+        display: inline-block;
+      }
+      
+      .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #ffffff;
+        min-width: 8.333vw;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
+      }
+      
+      .dropdown-content a {
+        color: #f1712a;
+        padding: 0.5vw 0.5vw;
+        text-decoration: none;
+        display: block; background-color: #ffffff;
+      }
+      
+      .dropdown-content a:hover {background-color: #ffffff;}
+      
+      .dropdown:hover .dropdown-content {display: block;}
+      
+      .dropdown:hover .dropbtn {background-color: #3e8e41;}
+
+body{
+    margin: 0%;
+}
+p{
+    font-family: 'Raleway', sans-serif;
+}
+a{
+    font: 'Raleway', sans-serif;
+    font-size: 1.2vw;
+    text-decoration: none;
+    font-weight: 550;
+    color: #f1712a;
+}
+a:hover{
+    text-decoration: underline;
+}
+h1{
+    text-align: center;
+}
+h2{
+    text-align: center;
+}
+h3{
+    text-align: center;
+}
+.header{
+    height: 7vw;
+    background-color: #ffffff;
+}
+header img{
+    width: 100%;
+    height: 40vw;
+    object-fit: cover;
+}
+.logo{
+    width: 7vw;
+    height: 7vw;
+    object-fit:cover;
+    position: absolute;
+    left: 3vw;
+    top: 0%;
+}
+.logo img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.text{
+    width: 50vw;
+    position: absolute;
+    text-align: center;
+    top: 20vw;
+  left: 30%;
+  transform: translate(-50%, -50%);
+  color: #000000;
+  font-weight: 600;
+}
+.right{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+   width: 30vw;
+   position: absolute;
+   right: 5vw;
+   top: 3.5vw;
+}
+main{
+    margin-top: 5vw;
+}
+.grid{
+    margin-top: 3vw;
+    display: flex;
+    flex-direction: row;
+    flex: 1 1 1 1;
+    justify-content: space-around;
+}
+.grid1{
+    width: 20vw;
+    margin-bottom: 5vw;
+    
+}
+.seemore-button{
+    display: flex;
+   
+
+}
+.vid{
+    position: absolute;
+    bottom: 7vw;
+    right: 3vw;
+}
+.seemore-button button{
+    background-color: #e27f4a;
+    color: black;
+    font-size: 1vw;
+    font-family: 'Raleway', sans-serif;
+    border: none;
+    height: 3vw;
+    width: 7vw;
+}
+
+.img{
+    width: 20vw;
+    height: 20vw;
+
+}
+.img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.flex{
+    margin-top: 3vw;
+    margin-bottom: 5vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.review{
+    width: 30vw;
+    text-align: center;
+    color: #000000;
+    border-style: solid;
+}
+.aboutus{
+    display: grid;
+    justify-content: center;margin-bottom: 5vw;
+    
+   
+}
+.aboutustext{
+    width: 60vw;
+    text-align: center;
+}
+.bottom{
+    background-color: grey; 
+    color: white;
+    display: flex;
+    flex-direction: row;
+}
+.bottom-flex{
+    display: flex;
+    flex-direction: column;
+    width: 35vw;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.bottom-left{
+    text-align: start;
+    display: flex;
+    flex-direction: column;
+    width: 20vw;
+}
+.bottom-left h2{
+    text-align: start;
+}
+.bottom-left a{
+    color: white;
+}
+.bottom-center{
+    display: flex;
+    align-items: center;
+    margin-right: 15vw;
+}
+.img-bottom{
+    width: 10vw;
+    height: 10vw;
+    margin-left: 10vw;
+}
+.img-bottom img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+.icon img{
+    width: 100%;
+    height: 100%; 
+}
+.bottom-right{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 30vw;
+}
+.icon-right{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.icon{
+    width: 3vw;
+    height: 3vw;
+    border-width: 1px;
+    margin-right: 2vw;
+   
+}
+
+@media (max-width:1200px){
+    p{
+        font-size: 2.5vw;
+    }
+    h1{
+        font-size: 4vw;
+    }
+    h2{
+        font-size:3vw;
+    }
+    a{
+       font-size: 2.5vw; 
+    }
+    .bottom-left a{
+        font-size: 2.5vw; 
+    }
+    .header{
+        height: 10vw;
+    }
+    .logo{
+        width: 20vw;
+        height: 15vw;
+        left: 1vw;
+    }
+    .dropbutton{
+        right: -9vw;
+        top: -2.7vw;
+        
+    }
+    .right{
+        display: flex;
+        flex-direction: row;
+        width: 80vw;
+    }
+    header img{
+        height: 80vw;
+    }
+    .text{
+        width: 90vw;
+        top: 50vw;
+        left: 50vw;
+    }
+    .grid{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .img{
+        width: 80vw;
+        height: 60vw;
+    }
+    .grid1{
+        width: 80vw;
+    }
+    .flex{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .review{
+        width: 80vw;
+        margin-bottom: 5vw;
+    }
+    .aboutustext{
+        width: 80vw;
+    }
+    .bottom-right{
+        width: 20vw;
+        margin-bottom: 2vw;
+    }
+    .bottom-left{
+        margin-bottom: 2vw;
+    }
+    .img-bottom{
+        width: 15vw;
+        height: 15vw;
+        margin-left: 5vw;
+    }
+    .logo{
+        width: 8vw;
+        height: 8vw;
+    }
+    .vid{
+        width:80vw;
+        height: 60vw;
+        position: relative;
+        margin-left: 12vw;
+    }.vid video{
+        width: 100%;
+        height: 100%;
+    }
+    .seemore-button button{
+        font-size: 2vw; 
+        width:15vw;
+        height: 7vw;
+    }
+
+}
