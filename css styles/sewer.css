@@ -219,9 +219,10 @@ main{
         height: 10vw;
     }
     .logo{
-        width: 9vw;
-        height: 9vw;
+        width: 12vw;
+        height: 12vw;
         left: 1vw;
+        top:1vw:
     }
     .dropbutton{
         right: -10vw;
@@ -263,7 +264,4 @@ main{
         height: 15vw;
         margin-left: 5vw;
     }
-    .logo {
-        width: 7vw;
-        height: 7vw;
-}
+
